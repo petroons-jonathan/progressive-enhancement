@@ -1,3 +1,27 @@
-p {
-    color:blue;
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color:rgb(180, 245, 0);
+    max-width:90%;
+    
 }
+
+a {
+    text-decoration:none;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(0, 0, 0), 0 0 0.2em green;
+    font-size:24px;
+}
+
+a:visited {
+    text-decoration:none;
+    color:green;
+}
+
+.Lien {
+    color:green;
+}
+
+.Lien:hover {
+    color:red;
+    font-size:28px;
+}
+
