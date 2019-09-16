@@ -3,7 +3,7 @@ body {
     font-size:24px;   
     background: url(fond.jpg) no-repeat bottom right, radial-gradient(rgb(43, 237, 22), rgb(20, 90, 38));
     max-width:90%;
-    margin:110px;
+    margin:120px;
     background-size: cover;
 }
 
@@ -105,4 +105,26 @@ header p {
     width:550px;
     height:50px;
     padding: right 2;00px;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+    padding:15px;
+    text-align:center;
+  }
+
+th {
+    background-color:blue;
+  }
+tr {
+      background-color:yellow;
+  }
+  tr:nth-child(even){
+      background-color: #f2f2f2
+    }
+img {
+    float:left;
+    margin:10px;
+    margin-bottom:20px;
+    position: relative;
 }
