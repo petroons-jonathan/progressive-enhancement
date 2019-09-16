@@ -70,8 +70,10 @@ a:visited {
     
 }
 
+
 header p {
     background-color: yellow;
+    font-weight: bold;
 }
 
 .bien {
