@@ -27,9 +27,14 @@ a:visited {
 }
 
 .citation {
+    padding:30px;
     max-width:50%;
     margin: 50px;
     font-size:160%;
+    background-color:rgba(168, 168, 168, 0.986);
+    border-left:solid;
+    border-left-width; 3px;
+    border-left-color:#842e1b;
     
 }
 
