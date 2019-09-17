@@ -9,6 +9,11 @@ body {
     background-size: cover;
 }
 
+h1, h2 {
+    font-family: "Chilanka", cursive;
+    text-decoration: underline;
+}
+
 a {
     text-decoration:none;
     text-shadow: 1px 1px 2px red, 0 0 1em rgb(0, 0, 0), 0 0 0.2em green;
@@ -17,7 +22,7 @@ a {
     /*Décoration de la balise <a> quand visité*/
 a:visited {
     text-decoration:none;
-    color:green;
+    color:yellow;
 }
 
 .Lien {
