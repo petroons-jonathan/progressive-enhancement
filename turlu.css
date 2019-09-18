@@ -1,13 +1,7 @@
-/*Redimensionner l'image "barbu"*/
-.barbu{
-    width:200px;
-    height:200px;
-}
-
 /* Conteneur de la page*/
 
 body {
-    margin: 10px;
+    margin:auto;
 }
 
 /* Création barre navigation */
@@ -58,6 +52,7 @@ a:visited {
     font-size: 105%;
 }
 
+
 /* problème de sélecteur à voir
 
 .nav-top li:hover {
@@ -74,3 +69,113 @@ a:visited {
     font-size: 100%;
 }
 */
+
+/*Header/Partie en haut de la page*/
+
+/*Redimensionner l'image "barbu" et positionner*/
+.barbu{
+    width:210px;
+    height:260px;
+    padding-right:100px;
+    padding-left:75px;
+}
+/* Positionnement et décoration box tête de la page*/
+.top-head {
+    padding-top:20px;
+    padding-right:20%;
+    padding-left:0%;
+    padding-bottom:2%;
+    background-color:#1e93cc;
+    color:white;
+    display: flex;
+    /* webkit display
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    */
+    flex-direction:row;
+    /* webkit flex-direction
+
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    */
+    flex-wrap: nowrap;
+    /* webkit flex-wrap
+
+    -webkit- flex-wrap: nowrap;
+    -ms- flex-wrap: nowrap;
+    */
+    justify-content: center;
+    /* webkit justify-content
+
+    -webkit- justify-content: center;
+    -ms- flex-pack: center;
+    */
+    align-content: center;
+    /* webkit align-content
+
+    -webkit- align-content: center;
+    -ms- flex-line-pack: center;
+    */
+    align-items: center;
+    /*webkit align-items 
+    
+    -webkit- align-items: center;
+    -ms- flex-align: center;
+    */
+}
+.top-logo {
+    order: 0;
+    /* webkit order
+    
+    -webkit- order: 0;
+    -ms- flex-order: 0;
+    */
+    flex: 0 1 auto;
+    /* webkit flex
+
+    -webkit- flex: 0 1 auto;
+    -ms- flex: 0 1 auto;
+    */
+    align-self: center;
+    /* webkit align-self
+
+    -webkit- align-self: center;
+    -ms- flex-item-align: center;
+    */
+    padding-right: 300px;
+}
+    /* pour les webkit voir en haut*/
+
+.top-txt {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.button a {
+    font-weight: bold;
+    padding: 20px 30px;
+    background-color:#e99002;
+    color:white;
+    border-radius: 10px;
+    /* webkit border-radius
+
+    -webkit- border-radius: 11px
+    -moz- border-radius: 11px;
+    */
+    border: 2px solid #fff;
+}
+.middle-txt {
+    padding: auto;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    color: black;
+    display:block;
+}
+.first-body {
+    padding-top: 5%;
+}
