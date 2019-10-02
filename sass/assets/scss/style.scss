@@ -1,3 +1,14 @@
+@mixin text-shadow {
+    text-shadow: 1px 1px 2px rgba(30, 147, 204, 1), 0 0 0.3em rgba(30, 147, 204, 1);
+    font-size: 103%;
+}
+@mixin flex-parametre {
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
 body {
     background : {
         color:#333333;
@@ -48,8 +59,7 @@ a {
         text-decoration:none;
         bottom:0;
         &:hover {
-            text-shadow: 1px 1px 2px rgba(30, 147, 204, 1), 0 0 0.3em rgba(30, 147, 204, 1);
-            font-size: 103%;
+            @include text-shadow;
         }
     }
 
@@ -57,10 +67,7 @@ a {
 header {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    @include flex-parametre;
     padding: {
         top:20px;
         right:350px;
@@ -80,10 +87,7 @@ header {
 .top-texte {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    @include flex-parametre;
 }
 .button {
     a {
@@ -95,8 +99,7 @@ header {
         border: 2px solid #fff;
         text-decoration: none;
         &:hover {
-            text-shadow: 1px 1px 2px white, 0 0 0.2em #1e93cc;
-            font-size: 103%;
+            @include text-shadow;
         }
     }
 }
@@ -114,7 +117,7 @@ header {
     display:block;
 }
 
-.block1 {
+.block-1 {
     padding-top: 5%;
     padding-right: 10%;
     padding-left: 10%;
@@ -133,8 +136,10 @@ header {
         bottom:1%;
     }
     background-color:#fff;
-    columns: #000000;
+    color: #000000;
     display:block;
+    text-align: center;
+    
 }
 .block-2 {
     padding: {
@@ -159,10 +164,7 @@ header {
     background-color: #fff;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    @include flex-parametre;
 }
 .button-2 {
     a {
