@@ -54,20 +54,18 @@ header {
   padding-bottom: 20px;
   background-color: #1e93cc;
   color: #fff; }
-
-.top-logo {
-  order: 0;
-  flex: 0 1 auto;
-  align-self: center;
-  padding-right: 100px; }
-
-.top-texte {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center; }
+  header .top-logo {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+    padding-right: 100px; }
+  header .top-texte {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center; }
 
 .button a {
   font-weight: bold;
@@ -136,20 +134,19 @@ header {
   justify-content: center;
   align-content: center;
   align-items: center; }
-
-.button-2 a {
-  margin-left: 5px;
-  margin-right: 5px;
-  padding: 20px 50px;
-  background: #1e93cc;
-  color: white;
-  border-radius: 9px;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold; }
-  .button-2 a:hover {
-    text-shadow: 1px 1px 2px white, 0 0 0.2em #1e93cc;
-    font-size: 103%; }
+  .block-3 .button-2 a {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 20px 50px;
+    background: #1e93cc;
+    color: white;
+    border-radius: 9px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold; }
+    .block-3 .button-2 a:hover {
+      text-shadow: 1px 1px 2px white, 0 0 0.2em #1e93cc;
+      font-size: 103%; }
 
 .button-3 a {
   margin-left: 5px;
@@ -189,7 +186,8 @@ header {
     display: block;
     text-decoration: none; }
     .nav-bot a:hover {
-      text-shadow: 1px 1px 2px #1e93cc, 0 0 0.3em #1e93cc; }
+      text-shadow: 1px 1px 2px #1e93cc, 0 0 0.3em #1e93cc;
+      font-size: 103%; }
 
 .messagerie {
   padding: 25px 15px;
